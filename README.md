@@ -27,3 +27,6 @@ The React application that fetches and renders the weather forecast data
 - Upon first request to the server for weather forecast data it will query the api and save the forecast data into the database
 - The client will communicate with my Auth0 credentials which are for testing purposes and are automatically wiped
 - The credentials can be found in the .env folder in the client
+
+![desktop-weather-forecast](https://user-images.githubusercontent.com/61074400/91235437-76bf1400-e72d-11ea-9c28-b2ab2064ad00.png)
+![mobile-weather-forecast](https://user-images.githubusercontent.com/61074400/91235583-bb4aaf80-e72d-11ea-8ba1-2894cf1ac0dc.png)
