@@ -93,7 +93,7 @@ export const WeatherForecast: React.FC = () => {
               </button>
             </div>
           )}
-          <div className="mt-3 row row-cols-6">
+          <div className="mt-3 row row-cols-3 row-cols-lg-6">
             {weather.consolidated_weather.map((day) => (
               <WeatherForecastDay {...day} key={day.id} />
             ))}
