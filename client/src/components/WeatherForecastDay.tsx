@@ -21,6 +21,7 @@ export const WeatherForecastDay: React.FC<WeatherForecastDayType> = ({
           alt={weather_state_name}
           className="img-fluid mb-2"
         />
+        <p className="mb-2">{weather_state_name}</p>
         <p className="mb-0 font-weight-bold">{Math.round(the_temp)}°</p>
       </div>
     </div>

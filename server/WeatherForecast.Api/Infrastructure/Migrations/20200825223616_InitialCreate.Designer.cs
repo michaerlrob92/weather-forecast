@@ -9,7 +9,7 @@ using WeatherForecast.Api.Infrastructure;
 namespace WeatherForecast.Api.Infrastructure.Migrations
 {
     [DbContext(typeof(WeatherForecastDbContext))]
-    [Migration("20200825221429_InitialCreate")]
+    [Migration("20200825223616_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
