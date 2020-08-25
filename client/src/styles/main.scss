@@ -1,0 +1,16 @@
+@import "bootstrap/scss/bootstrap";
+
+.btn-split {
+  .btn + .btn {
+    margin-left: map-get($spacers, 3);
+  }
+}
+
+.weather-forecast-day {
+  padding-top: map-get($spacers, 5);
+  padding-bottom: map-get($spacers, 5);
+}
+
+.weather-forecast-day + .weather-forecast-day {
+  border-left: 1px solid rgba($dark, 0.15);
+}
